@@ -1,0 +1,54 @@
+.message{
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;
+}
+.messageTop{
+    display:flex;
+    
+}
+.messageImg{
+    width:32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 10px;
+}
+.messageText{
+    color:white;
+    background-color: rgb(0 ,106 ,255);
+    border-radius: 5px;
+    padding:10px;
+    max-width: 300px;;
+    background-color: light gray;
+}
+.message.own .messageText{
+    background-color: rgb(245, 241, 241);
+    color: black;
+}
+.messageBottom{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.chatBoxBottom{
+    margin-top:5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chatMessageInput{
+    padding:10px;
+    height:90px;
+    width:80%;
+    border-radius:5px;
+}
+.chatBoxButton{
+    width: 70px ;
+    height: 40px; ;
+    border:none;
+    border-radius: 5px;
+    background-color: teal;
+    color:white;
+    cursor:pointer;
+
+}
