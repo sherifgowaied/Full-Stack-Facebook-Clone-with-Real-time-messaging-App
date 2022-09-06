@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/91483223/188578287-0d2a8675-fb05-4cda-
 2- Make secret Key from Encrpted Passwords</br>
  Go to Client , Api , Socket Files </br>
 ````
-npm install && start 
+npm install &&  npm start 
 ````
 
 
